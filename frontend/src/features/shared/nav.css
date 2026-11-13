@@ -1,0 +1,7 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 3rem;
+  padding-block: 2rem;
+}/*# sourceMappingURL=nav.css.map */

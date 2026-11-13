@@ -1,0 +1,30 @@
+.follower-conatiner{
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .single-user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    .img-wrapper{
+        border-radius: 50%;
+        border: 3px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid rgba(115, 17, 17, 0);
+         background: conic-gradient(rgb(255, 0, 123),rgb(0, 111, 128),rgb(255, 149, 0),rgb(255, 0, 123)) border-box;
+    }
+    img{
+        width: 3.5rem;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+}
